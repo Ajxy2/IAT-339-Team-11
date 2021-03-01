@@ -12,3 +12,19 @@
     transform: none;
   }
 }
+
+@media screen and (max-width: 900px) {
+
+  body {
+    background-color: blue;
+  }
+  .header-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
