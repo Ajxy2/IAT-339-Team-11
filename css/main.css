@@ -327,6 +327,7 @@
   flex-wrap: wrap;
   border-radius: 3px;
   justify-content: center;
+  margin-left: 2.5rem;
 }
 
 .block-about-us {
