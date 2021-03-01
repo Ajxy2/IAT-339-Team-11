@@ -283,12 +283,12 @@
 
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
 .header-text {
-  position: relative;
-  top: -65%;
+  position: absolute;
+  top: 37%;
   left: 65%;
   color: white;
-  padding-bottom: -110px;
-  margin-bottom: -10rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* crop for services header https://stackoverflow.com/questions/493296/css-display-an-image-resized-and-cropped */
