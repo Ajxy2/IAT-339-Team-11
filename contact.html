@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--I used the Style Guide Template as reference -->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Contact</title>
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/queries.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav>
+         <!-- reference for nav bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav -->
+         <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered -->
+         <div class="topnav">
+            <div class="topnav-left">
+               <span class="auto-detailing-font-top"> AUTO
+               <span class="mobile-font-top"> MOBILE </span>
+               <span class="detailing-font-top"> DETAILING </span>
+               </span>
+            </div>
+            <ul>
+               <li><a class="button-nav" href="home.html">Home</a> </li>
+               <li><a class="button-nav" href="services.html">Services</a> </li>
+               <li><a class="button-nav" href="checkout.html">Checkout</a> </li>
+               <li><a class="button-nav" href="index.html">Style Guide</a> </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- reference for flexbox gallery for images from https://css-tricks.com/adaptive-photo-layout-with-flexbox/ -->
+      <div class="container">
+         <div class="block">
+            <div class="crop-header">
+               <img src="images/ext.jpg" alt="detailing header">
+            </div>
+            <div class="header-text">
+               <h1>Contact Us</h1>
+               <p>Have any questions or comments? Drop us a message below</p>
+            </div>
+         </div>
+      </div>
+      <div class="container-contact-us">
+         <div class="block-contact-us">
+            <h2>Contact Us</h2>
+            <p>Please fill out your full name, email and any question/comments
+            <p>
+            <form method="post" action="#">
+               <label class="input-text-label" for="name"> Name </label>
+               <input class="input-text-about-us" type="text" id = "name" name="name">
+            </form>
+            <form method="post" action="#">
+               <label class="input-text-label" for="email"> Email </label>
+               <input class="input-text-about-us" type="text" id = "email" name="email">
+            </form>
+            <form method="post" action="#">
+               <label class="input-text-label" for="Message"> Message </label>
+               <input class="input-text-about-us" type="text" id = "Message" name="message">
+            </form>
+            <div class="container-payment">
+               <input class="button-form" type="submit" value="Submit">
+            </div>
+         </div>
+      </div>
+   </body>
