@@ -327,17 +327,27 @@
   flex-wrap: wrap;
   border-radius: 3px;
   justify-content: center;
-  margin-left: 2.5rem;
+  padding-top:3rem;
 }
 
+.block-about-us h2 {
+  margin-top: -1rem;
+}
+
+.block-about-us img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.block-about-us p {
+  padding-top: 3rem;
+}
+
+/* reference from https://stackoverflow.com/questions/29546550/flexbox-4-items-per-row */
 .block-about-us {
-  padding: 2%;
+  flex: 0 35%;
+  margin: 2rem;
 }
-
-.block-about-us .stretch {
-  flex: 1;
-}
-
 
 /* Reference for using span for checkout from https://www.w3schools.com/howto/howto_css_checkout_form.asp */
 span.price{
