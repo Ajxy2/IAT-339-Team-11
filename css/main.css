@@ -378,8 +378,18 @@
 .block-about-us p {
   padding-top: 3rem;
 }
+
 .block-contact-us {
   padding: 2%;
+}
+
+.block-contact-us h2 {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.block-contact-us h3{
+  padding-top: 1rem;
 }
 
 /* reference from https://stackoverflow.com/questions/29546550/flexbox-4-items-per-row */

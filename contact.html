@@ -22,7 +22,7 @@
             <ul>
                <li><a class="button-nav" href="home.html">Home</a> </li>
                <li><a class="button-nav" href="services.html">Services</a> </li>
-               <li><a class="button-nav"href="contact.html">Contact Us</a> </li>
+               <li><a class="button-nav" href="contact.html">Contact Us</a> </li>
                <li><a class="button-nav" href="checkout.html">Checkout</a> </li>
                <li><a class="button-nav" href="index.html">Style Guide</a> </li>
             </ul>
@@ -36,15 +36,27 @@
             </div>
             <div class="header-text">
                <h1>Contact Us</h1>
-               <p>Have any questions or comments? Drop us a message below</p>
+               <p>Have any questions or comments? </p>
             </div>
          </div>
       </div>
       <div class="container-contact-us">
          <div class="block-contact-us">
-            <h2>Contact Us</h2>
-            <p>Please fill out your full name, email and any question/comments
-            <p>
+            <h2>Drop us a message below</h2>
+            <h3> Question / comment is regarding: </h3>
+            <form method="get" action="#">
+              <input type="radio" id="ext-detail" name="type" value="ext-detail">
+              <label for="ext-detail">Exterior Detail</label><br>
+              <input type="radio" id="int-detail" name="type" value="int-detail">
+              <label for="int-detail">Interior Detail</label><br>
+              <input type="radio" id="comp-updates" name="type" value="comp-updates">
+              <label for="comp-updates">Company updates</label><br>
+              <input type="radio" id="other" name="type" value="other">
+              <label for="other">Other</label><br>
+            </form>
+
+            <h3> Your details: </h3>
+            <p>Please fill out your full name, email and any question/comments </p>
             <form method="post" action="#">
                <label class="input-text-label" for="name"> Name </label>
                <input class="input-text-about-us" type="text" id = "name" name="name">
