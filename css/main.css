@@ -99,29 +99,6 @@
   font-weight: bold;
 }
 
-.input-text-about-us {
-  background: #ededed;
-  border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 1rem;
-  width: 30rem;
-  height: 2rem;
-}
-
-.input-text-about-us:hover {
-  background: #DAA520;
-}
-
-.input-text-about-us:hover {
-  background: #DAA520;
-}
-
-.input-text-about-us:focus {
-  background: #e0e0e0;
-  border-color: #DAA520;
-  outline-color: #DAA520;
-}
-
 /* Styling for image as a link. Reference from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
 .image-link {
   max-height: 100%;
@@ -355,17 +332,6 @@
 
 .block-about-us h2 {
   margin-top: -1rem;
-.container-contact-us {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 3px;
-  justify-content: center;
-}
-
-
-.block-about-us {
-  padding: 2%;
 }
 
 .block-about-us img {
@@ -376,20 +342,12 @@
 .block-about-us p {
   padding-top: 3rem;
 }
-.block-contact-us {
-  padding: 2%;
-}
 
 /* reference from https://stackoverflow.com/questions/29546550/flexbox-4-items-per-row */
 .block-about-us {
   flex: 0 35%;
   margin: 2rem;
 }
-
-#Message {
-  height: 12rem;
-}
-
 
 /* Reference for using span for checkout from https://www.w3schools.com/howto/howto_css_checkout_form.asp */
 span.price{
