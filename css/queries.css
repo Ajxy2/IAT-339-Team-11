@@ -13,6 +13,7 @@
   }
 }
 
+/* making the header text move to the center when the screen is small enough */
 @media screen and (max-width: 1000px) {
   .header-text {
     color: white;
@@ -22,5 +23,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+}
+
+/* making the home page text fill up the page once the screen is a certain size */
+@media screen and (max-width: 1279px) {
+  .block-about-us {
+    flex: 0 100%;
+    margin: 2rem;
+  }
+
+  .block-about-us p {
+    padding-top: 0rem;
   }
 }
