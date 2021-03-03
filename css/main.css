@@ -355,6 +355,8 @@
 
 .block-about-us h2 {
   margin-top: -1rem;
+}
+
 .container-contact-us {
   display:flex;
   flex-direction: row;
