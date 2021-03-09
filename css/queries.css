@@ -56,3 +56,32 @@
     width: 100%;
   }
 }
+
+/* MOBILE RESPONSIVENESS QUERIES */
+@media screen and (max-width: 411px) {
+  body {
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+
+  .auto-detailing-font-top {
+    font-size: 1.75rem;
+
+  }
+
+  .mobile-font-top {
+    font-size: 1.75rem;
+  }
+
+  .header-text {
+    padding-top: 10rem;
+  }
+
+  .container-about-us {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+}
