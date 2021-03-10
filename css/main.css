@@ -60,6 +60,12 @@
   border-bottom: 3px solid #DAA520;
 }
 
+.block-add-to-cart {
+  flex: 0 100%;
+}
+
+
+
 /* focus border reference from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border */
 .button-nav:focus {
   border-color: #DAA520;
@@ -225,6 +231,22 @@
 .container-services {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block-services {
+  position: relative;
+  flex: 1 20%;
+  padding-top: 2rem;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+}
+
+.services-img {
+  width: 25rem;
+  height: 25rem;
+  width: 100%;
+  object-fit:cover;
 }
 
 .block-img {
@@ -457,15 +479,3 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
-
-/* from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar */
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
