@@ -52,7 +52,7 @@
 
 /* focus border reference from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border */
 .button-nav:focus {
-  border-color:#DAA520;
+  border-color: #DAA520;
   border: 3px solid #DAA520;
 }
 
@@ -131,13 +131,13 @@
 }
 
 .larger-element {
-  padding-top:0.5rem;
-  margin-bottom:0.3rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.3rem;
   font-size: 1.2rem;
 }
 
 .image {
-  width:40rem;
+  width: 40rem;
 }
 
 /* Styling the colored boxes */
@@ -180,7 +180,7 @@
 /* Styling for brand component headings */
 /* styling for the words "auto" and "detailing" for the top left corner*/
 .auto-detailing-font-top {
-  margin-left:-2.5rem;
+  margin-left: -2.5rem;
   font-family: Montserrat;
   font-size: 2rem;
   color: #FFFFFF;
@@ -192,10 +192,10 @@
   margin-left: -0.5rem;
   margin-right: 1rem;
   font-family: Montserrat;
-  font-style:italic;
+  font-style: italic;
   font-weight: Bold;
   font-size: 2rem;
-  color:#DAA520;
+  color: #DAA520;
 }
 
 .h2-sample {
@@ -205,16 +205,16 @@
 
 /* flexbox container */
 .container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 3px;
 }
 
 /* reference for blocks & overlays from https://css-tricks.com/adaptive-photo-layout-with-flexbox/ */
-.container-services{
-  display:flex;
-  flex-wrap:wrap;
+.container-services {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .block-img {
@@ -228,7 +228,7 @@
 .block-img h3 {
   color: #fff;
   text-align: left;
-  margin: 0px ;
+  margin: 0px;
   position: absolute;
   left: 3rem;
   bottom: 3rem;
@@ -262,11 +262,12 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-/* end of reference for block image overlays */
 
+/* end of reference for block image overlays */
 .block {
   flex-grow: 1;
 }
+
 /* <!-- reference for nav bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav -->
 <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered --> */
 .topnav {
@@ -281,6 +282,7 @@
 .topnav ul li {
   display: inline-block;
 }
+
 .topnav a {
   float: left;
   display: block;
@@ -297,11 +299,11 @@
 }
 
 /* header reference from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_header */
-.header{
-   width: auto;
-   height: 150px;
-   overflow: hidden;
-   border: 5px solid black;
+.header {
+  width: auto;
+  height: 150px;
+  overflow: hidden;
+  border: 5px solid black;
 }
 
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
@@ -329,7 +331,7 @@
 }
 
 .container-payment {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 3px;
@@ -345,12 +347,12 @@
 }
 
 .container-about-us {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 3px;
   justify-content: center;
-  padding-top:3rem;
+  padding-top: 3rem;
 }
 
 .block-about-us h2 {
@@ -358,13 +360,12 @@
 }
 
 .container-contact-us {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 3px;
   justify-content: center;
 }
-
 
 .block-about-us {
   padding: 2%;
@@ -388,7 +389,7 @@
   margin-bottom: -1rem;
 }
 
-.block-contact-us h3{
+.block-contact-us h3 {
   padding-top: 1rem;
 }
 
@@ -402,9 +403,8 @@
   height: 12rem;
 }
 
-
 /* Reference for using span for checkout from https://www.w3schools.com/howto/howto_css_checkout_form.asp */
-span.price{
+span.price {
   float: right;
   color: #909090;
 }
@@ -417,13 +417,12 @@ h2 {
 
 h1 {
   font-size: 4rem;
-  margin-bottom:0rem;
+  margin-bottom: 0rem;
 }
 
 p {
   max-width: 60rem;
 }
-
 
 h3 {
   font-style: italic;
@@ -441,3 +440,15 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
+
+/* from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar */
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
