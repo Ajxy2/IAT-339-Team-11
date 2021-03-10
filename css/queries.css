@@ -65,10 +65,8 @@
     margin-right: 0.5rem;
   }
 
-
   .auto-detailing-font-top {
     font-size: 1.75rem;
-
   }
 
   .mobile-font-top {
@@ -82,6 +80,10 @@
   .container-about-us {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
+  }
+
+  .input-text {
+    height: 2rem;
   }
 
 }
