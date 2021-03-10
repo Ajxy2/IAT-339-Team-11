@@ -14,15 +14,20 @@
 }
 
 /* making the header text move to the center when the screen is small enough */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .header-text {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    top: 30rem;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
@@ -76,6 +81,7 @@
 
   .header-text {
     padding-top: 10rem;
+    top: 23rem;
   }
 
   .container-about-us {
