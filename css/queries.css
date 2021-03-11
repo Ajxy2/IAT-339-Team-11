@@ -1,5 +1,5 @@
 /* Responsive navigation menu reference from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav a, .topnav-right {
     float: none;
     display: block;
@@ -47,13 +47,38 @@
   }
 
   .container-about-us .block-about-us h2 {
-    /* margin-top: 2rem; */
     margin-bottom: 1rem;
   }
 
   .block-about-us ul {
     margin-bottom: 1rem;
   }
+}
+
+/* detailed view responsiveness */
+@media screen and (max-width: 1279px) {
+  .block-detailed-view {
+    flex: 0 100%;
+    margin: 2rem;
+  }
+
+  .block-detailed-view p {
+    padding-top: 0rem;
+  }
+
+  .block-detailed-view img {
+    margin-bottom: -7rem;
+  }
+
+  .container-detailed-view .block-detailed-view h2 {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+
+  .container-detailed-view ul {
+    padding-bottom: 4rem;
+  }
+
 }
 
 /* query for responsive checkout form & contact us */
@@ -85,7 +110,6 @@
 
   .auto-detailing-font-top {
     font-size: 1.75rem;
-
   }
 
   .mobile-font-top {
@@ -106,7 +130,7 @@
     height: 2rem;
   }
 
-  .topnav{
+  .topnav {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -130,7 +154,6 @@
     padding: .6rem 1rem;
     margin: 0.1rem;
   }
-
 }
 
 @media screen and (max-width: 900px) {
