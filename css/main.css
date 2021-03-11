@@ -87,6 +87,8 @@
   border: 1px solid #323232;
   transition-property: background-color;
   transition-duration: 0.5s;
+  width:15rem;
+  height:3rem;
 }
 
 .button-form:hover {
