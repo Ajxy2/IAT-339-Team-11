@@ -81,7 +81,7 @@
 
   .header-text {
     padding-top: 10rem;
-    top: 23rem;
+    top: 30rem;
   }
 
   .container-about-us {
@@ -118,4 +118,12 @@
     margin: 0.1rem;
   }
 
+}
+
+@media screen and (max-width: 900px) {
+  .image-link {
+    max-width: 100%;
+    /* object-fit: cover; */
+    /* vertical-align: bottom; */
+  }
 }

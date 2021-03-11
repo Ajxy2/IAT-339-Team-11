@@ -64,6 +64,26 @@
   flex: 0 100%;
 }
 
+.block .button-nav {
+  width: 99%;
+  margin-top: 0.5rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.block-about-us .button-nav {
+  width: 99%;
+  margin-top: 0.5rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.block-about-us h2 {
+  margin-bottom: -5rem;
+}
+
 
 
 /* focus border reference from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border */
@@ -231,16 +251,34 @@
 .container-services {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
+/* beginning of test */
+
 .block-services {
-  position: relative;
-  flex: 1 20%;
-  padding-top: 2rem;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
+  /* flex: 1 0 21%;
+  margin: 1rem;
+  margin-top: 2rem;
+  width: 100px; */
+
+  margin: 1rem;
+  flex: 1 40%;
 }
+
+.block-detailed {
+  ma
+}
+
+.listing-img {
+  max-width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+
+/* end of test */
 
 .services-img {
   width: 25rem;
@@ -251,7 +289,7 @@
 
 .block-img {
   position: relative;
-  padding: 2%;
+  /* padding: 2%; */
   height: 25rem;
   flex-grow: 1;
 }
@@ -298,6 +336,7 @@
 /* end of reference for block image overlays */
 .block {
   flex-grow: 1;
+  padding: 2%;
 }
 
 /* <!-- reference for nav bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav -->
