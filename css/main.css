@@ -72,19 +72,6 @@
   padding-top: 1.5rem;
 }
 
-.block-about-us .button-nav {
-  width: 99%;
-  margin-top: 0.5rem;
-  height: 2rem;
-  text-align: center;
-  padding-top: 1.5rem;
-}
-
-.block-about-us h2 {
-  margin-bottom: -5rem;
-}
-
-
 
 /* focus border reference from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border */
 .button-nav:focus {
@@ -426,6 +413,26 @@
   flex: 1;
 }
 
+.container-detailed-view {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.block-detailed-view {
+  flex: 0 35%;
+  margin: 2rem;
+}
+
+
+
+.container-detailed-view h2 {
+  margin-bottom: -5rem;
+}
+
 .container-about-us {
   display: flex;
   flex-direction: row;
@@ -436,7 +443,19 @@
 }
 
 .block-about-us h2 {
-  margin-top: -1rem;
+  margin-top: -2rem;
+}
+
+.block-about-us .button-nav {
+  width: 99%;
+  margin-top: 0.5rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.block-about-us ul {
+  margin-bottom: -3rem;
 }
 
 .container-contact-us {

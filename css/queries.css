@@ -43,7 +43,16 @@
   }
 
   .block-about-us img {
-    margin-bottom: -5rem;
+    margin-bottom: -7rem;
+  }
+
+  .container-about-us .block-about-us h2 {
+    /* margin-top: 2rem; */
+    margin-bottom: 1rem;
+  }
+
+  .block-about-us ul {
+    margin-bottom: 1rem;
   }
 }
 
@@ -68,6 +77,10 @@
     margin-top: 0rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+  }
+
+  .block-about-us img {
+    margin-bottom: -5rem;
   }
 
   .auto-detailing-font-top {
