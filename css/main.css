@@ -125,7 +125,7 @@
   font-weight: bold;
 }
 
-.input-text-about-us {
+.input-text-contact-us {
   background: #ededed;
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -134,15 +134,15 @@
   height: 2rem;
 }
 
-.input-text-about-us:hover {
+.input-text-contact-us:hover {
   background: #DAA520;
 }
 
-.input-text-about-us:hover {
+.input-text-contact-us:hover {
   background: #DAA520;
 }
 
-.input-text-about-us:focus {
+.input-text-contact-us:focus {
   background: #e0e0e0;
   border-color: #DAA520;
   outline-color: #DAA520;
