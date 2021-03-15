@@ -87,13 +87,22 @@
     flex: 0 100%;
   }
 
-  .input-text {
+  .container-payment {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+  }
+
+  /* .input-text {
     width: 100%;
   }
 
   .input-text-about-us {
     width: 100%;
-  }
+  } */
 }
 
 /* MOBILE RESPONSIVENESS QUERIES */

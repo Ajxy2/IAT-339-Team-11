@@ -107,6 +107,7 @@
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .input-text:hover {
@@ -403,17 +404,20 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 3px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  /* border-radius: 3px; */
   justify-content: center;
 }
 
 .block-payment {
   padding: 2%;
-}
-
-.block-payment .stretch {
   flex: 1;
 }
+
+/* .block-payment .stretch {
+  flex: 1;
+} */
 
 .container-detailed-view{
   display: flex;
