@@ -24,11 +24,11 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
+/*
   body {
     margin-left: 1rem;
     margin-right: 1rem;
-  }
+  } */
 }
 
 /* making the home page text fill up the page once the screen is a certain size */
@@ -81,6 +81,14 @@
 
 }
 
+/* making the margins shrink before the nav buttons hit the logo in the top left */
+@media screen and (max-width: 1125px) {
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
 /* query for responsive checkout form & contact us */
 @media screen and (max-width: 1000px) {
   .block-payment {
@@ -88,21 +96,18 @@
   }
 
   .container-payment {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
     padding-left: 0rem;
     padding-right: 0rem;
-
   }
 
-  /* .input-text {
-    width: 100%;
+  .block-contact-us {
+    flex: 0 100%;
   }
 
-  .input-text-about-us {
-    width: 100%;
-  } */
+  .container-contact-us {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }
 
 /* MOBILE RESPONSIVENESS QUERIES */

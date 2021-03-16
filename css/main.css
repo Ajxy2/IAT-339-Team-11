@@ -105,9 +105,9 @@
 .input-text {
   background: #ededed;
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1rem;
   width: 100%;
+  height: 2rem;
 }
 
 .input-text:hover {
@@ -128,10 +128,10 @@
 .input-text-contact-us {
   background: #ededed;
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1rem;
-  width: 30rem;
+  /* width: 30rem; */
   height: 2rem;
+  width: 100%;
 }
 
 .input-text-contact-us:hover {
