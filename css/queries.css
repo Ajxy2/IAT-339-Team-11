@@ -119,10 +119,17 @@
   }
 
   .image-link {
-    /* width: 100%; */
     height: 30rem;
     object-fit: cover;
     vertical-align: bottom;
+  }
+
+  .block .button-nav {
+    width: 97%;
+    margin-top: 0.5rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 1.5rem;
   }
 
   .block a {
@@ -194,6 +201,34 @@
 @media screen and (max-width: 375px) {
   h2 {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .auto-detailing-font-top {
+    font-size: 1.65rem;
+  }
+
+  .mobile-font-top {
+    font-size: 1.65rem;
+  }
+
+  .detailing-font-top {
+    font-size: 1.65rem;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .auto-detailing-font-top {
+    font-size: 1.5rem;
+  }
+
+  .mobile-font-top {
+    font-size: 1.5rem;
+  }
+
+  .detailing-font-top {
+    font-size: 1.5rem;
   }
 }
 

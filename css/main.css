@@ -241,10 +241,9 @@
 .container-services {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
 }
 
-/* beginning of test */
+
 
 .block-services {
   /* flex: 1 0 21%;
@@ -256,10 +255,6 @@
   flex: 1 40%;
 }
 
-.block-detailed {
-  ma
-}
-
 .listing-img {
   max-width: 100%;
 }
@@ -267,8 +262,6 @@
 .product-info {
   margin-top: auto;
 }
-
-/* end of test */
 
 .services-img {
   width: 25rem;
@@ -279,7 +272,6 @@
 
 .block-img {
   position: relative;
-  /* padding: 2%; */
   height: 25rem;
   flex-grow: 1;
 }
