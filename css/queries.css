@@ -24,11 +24,6 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-/*
-  body {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  } */
 }
 
 /* making the home page text fill up the page once the screen is a certain size */
@@ -194,7 +189,7 @@
   }
 
   .header-text {
-    padding-top: 20rem;
+    margin-top: 3rem;
   }
 }
 
