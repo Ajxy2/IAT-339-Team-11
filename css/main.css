@@ -213,6 +213,10 @@
   font-weight: lighter;
 }
 
+.auto-detailing-font-top:hover, .mobile-font-top:hover {
+  opacity: 90%;
+}
+
 /* styling for the word "mobile" for the top left corner*/
 .mobile-font-top {
   margin-left: -0.5rem;

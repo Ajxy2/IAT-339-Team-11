@@ -33,20 +33,17 @@
         </ul>
       </div>
     </div>
-
   </nav>
 
-  <section>
-    <div class="container">
-      <div class="block">
-        <div class="crop-header">
-          <img src="images/ext.jpg" alt="header">
-        </div>
-        <div class="header-text">
-          <h1>Checkout</h1>
-          <p>Convenient online transactions.</p>
-        </div>
+  <section class="container">
+    <div class="block">
+      <div class="crop-header">
+        <img src="images/ext.jpg" alt="header">
       </div>
+      <header class="header-text">
+        <h1>Checkout</h1>
+        <p>Convenient online transactions.</p>
+      </header>
     </div>
   </section>
 
@@ -58,6 +55,7 @@
       <div class="divider">
         <p> Total <span class="price">$210</span> </p>
       </div>
+
       <h3> Select your vehicle type: </h3>
       <form method="get" action="#">
         <input type="radio" id="coupe" name="type" value="coupe">
@@ -65,7 +63,7 @@
         <input type="radio" id="car" name="type" value="car">
         <label for="car"> Sedan </label><br>
         <input type="radio" id="suv" name="type" value="suv">
-        <label for="SUV"> SUV </label><br>
+        <label for="suv"> SUV </label><br>
         <input type="radio" id="truck" name="type" value="truck">
         <label for="truck"> Truck </label><br>
       </form>
@@ -107,6 +105,6 @@
   <!-- I make a separate container here so that I can center the button by itself in the
     next row -->
   <div class="container-payment">
-    <input class="button-form" type="submit" value="Submit">
+    <input type="submit" class="button-form" value="Submit">
   </div>
 </body>
