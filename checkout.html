@@ -2,26 +2,28 @@
 <!--I used the Style Guide Template as reference -->
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title> Checkout </title>
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title> Checkout </title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/queries.css" rel="stylesheet">
+</head>
 
-  <body>
-    <nav>
-      <!-- reference for nav bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav -->
-      <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered -->
-      <div class="topnav">
-        <div class="topnav-left">
+<body>
+  <nav>
+    <!-- reference for nav bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav -->
+    <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered -->
+    <div class="topnav">
+      <div class="topnav-left">
+        <a href="home.html">
           <span class="auto-detailing-font-top"> AUTO
             <span class="mobile-font-top"> MOBILE </span>
             <span> DETAILING </span>
           </span>
-        </div>
-	<div class="navbar-buttons">
+        </a>
+      </div>
+      <div class="navbar-buttons">
         <ul>
           <li><a class="button-nav" href="home.html">Home</a> </li>
           <li><a class="button-nav" href="services.html">Services</a> </li>
@@ -29,35 +31,36 @@
           <li><a class="button-nav" href="checkout.html">Checkout</a> </li>
           <li><a class="button-nav" href="index.html">Style Guide</a> </li>
         </ul>
-	</div>
       </div>
+    </div>
 
-    </nav>
+  </nav>
 
-    <section>
-      <div class="container">
-        <div class="block">
-          <div class="crop-header">
-            <img src="images/ext.jpg" alt="header">
-          </div>
-          <div class="header-text">
-            <h1>Checkout</h1>
-            <p>Convenient online transactions.</p>
-          </div>
+  <section>
+    <div class="container">
+      <div class="block">
+        <div class="crop-header">
+          <img src="images/ext.jpg" alt="header">
+        </div>
+        <div class="header-text">
+          <h1>Checkout</h1>
+          <p>Convenient online transactions.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="container-payment">
-      <div class="block-payment">
-        <h3 class="larger-element"> Cart </h3>
-        <p> <a class="link" href="services.html"> Wax & Polish </a> <span class="price">$200</span></p>
-        <p> <a class="link" href="services.html"> Wipe Down</a> <span class="price">$100</span></p>
-        <div class="divider">
-          <p> Total <span class="price">$210</span> </p>
-        </div>
 
-        <!-- <h3 class="larger-element"> Vehicle type: </h3>
+  <section class="container-payment">
+    <div class="block-payment">
+      <h3 class="larger-element"> Cart </h3>
+      <p> <a class="link" href="services.html"> Wax & Polish </a> <span class="price">$200</span></p>
+      <p> <a class="link" href="services.html"> Wipe Down</a> <span class="price">$100</span></p>
+      <div class="divider">
+        <p> Total <span class="price">$210</span> </p>
+      </div>
+
+      <!-- <h3 class="larger-element"> Vehicle type: </h3>
         <form method="get" action="#">
           <input type="radio" id="car" name="type" value="car">
           <label for="car">coupe/sedan</label><br>
@@ -66,46 +69,46 @@
           <input type="radio" id="truck" name="type" value="truck">
           <label for="truck">truck</label><br>
         </form> -->
-      </div>
-
-      <div class="block-payment">
-        <h3 class="larger-element"> Home Address </h3>
-        <form method="post" action="#">
-          <label class="input-text-label" for="fullname"> Full name </label>
-          <input class="input-text" type="text" id = "fullname" name="fullname">
-          <label class="input-text-label" for="address"> Address  </label>
-          <input class="input-text" type="text" id = "address" name="address">
-          <label class="input-text-label" for="city"> City  </label>
-          <input class="input-text" type="text" id = "city" name="city">
-          <label class="input-text-label" for="province"> Province  </label>
-          <input class="input-text" type="text" id = "province" name="province">
-          <label class="input-text-label" for="postal"> Postal code  </label>
-          <input class="input-text" type="text" id = "postal" name="postal">
-        </form>
-      </div>
-
-      <div class="block-payment">
-        <h3 class="larger-element"> Payment info </h3>
-        <form method="post" action="#">
-          <label class="input-text-label"  for="ccname"> Name on card  </label>
-          <input class="input-text" type="text" id = "ccname" name="ccname">
-          <label class="input-text-label" for="ccnumber"> Credit card number </label>
-          <!-- <div class="stretch"> -->
-          <input class="input-text" type="text" id = "ccnumber" name="ccnumber">
-          <!-- </div> -->
-          <label class="input-text-label"  for="expMonth"> Expiry month </label>
-          <input class="input-text" type="text" id = "expMonth" name="expMonth">
-          <label class="input-text-label"  for="expYear"> Expiry year </label>
-          <input class="input-text" type="text" id = "expYear" name="expYear">
-          <label class="input-text-label" for="cvv"> CVV </label>
-          <input class="input-text" type="text" id = "cvv" name="cvv">
-        </form>
-      </div>
-    </section>
-
-    <!-- I make a separate container here so that I can center the button by itself in the
-    next row -->
-    <div class="container-payment">
-      <input class="button-form" type="submit" value="Submit">
     </div>
-  </body>
+
+    <div class="block-payment">
+      <h3 class="larger-element"> Home Address </h3>
+      <form method="post" action="#">
+        <label class="input-text-label" for="fullname"> Full name </label>
+        <input class="input-text" type="text" id="fullname" name="fullname">
+        <label class="input-text-label" for="address"> Address </label>
+        <input class="input-text" type="text" id="address" name="address">
+        <label class="input-text-label" for="city"> City </label>
+        <input class="input-text" type="text" id="city" name="city">
+        <label class="input-text-label" for="province"> Province </label>
+        <input class="input-text" type="text" id="province" name="province">
+        <label class="input-text-label" for="postal"> Postal code </label>
+        <input class="input-text" type="text" id="postal" name="postal">
+      </form>
+    </div>
+
+    <div class="block-payment">
+      <h3 class="larger-element"> Payment info </h3>
+      <form method="post" action="#">
+        <label class="input-text-label" for="ccname"> Name on card </label>
+        <input class="input-text" type="text" id="ccname" name="ccname">
+        <label class="input-text-label" for="ccnumber"> Credit card number </label>
+        <!-- <div class="stretch"> -->
+        <input class="input-text" type="text" id="ccnumber" name="ccnumber">
+        <!-- </div> -->
+        <label class="input-text-label" for="expMonth"> Expiry month </label>
+        <input class="input-text" type="text" id="expMonth" name="expMonth">
+        <label class="input-text-label" for="expYear"> Expiry year </label>
+        <input class="input-text" type="text" id="expYear" name="expYear">
+        <label class="input-text-label" for="cvv"> CVV </label>
+        <input class="input-text" type="text" id="cvv" name="cvv">
+      </form>
+    </div>
+  </section>
+
+  <!-- I make a separate container here so that I can center the button by itself in the
+    next row -->
+  <div class="container-payment">
+    <input class="button-form" type="submit" value="Submit">
+  </div>
+</body>
