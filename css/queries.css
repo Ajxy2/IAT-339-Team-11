@@ -90,6 +90,10 @@
     flex: 0 100%;
   }
 
+  .image {
+    width: 100%;
+  }
+
   .container-payment {
     padding-left: 0rem;
     padding-right: 0rem;
