@@ -34,9 +34,6 @@
     margin-top: 1rem;
   }
 
-  /* .container-detailed-view h2{
-    margin-top: 20rem;
-  } */
 }
 
 /* making the elements  fill up the page once the screen is a certain size */
@@ -60,10 +57,6 @@
 
   .block-about-us ul {
     margin-bottom: 1rem;
-  }
-
-  .container-detailed-view img{
-    padding-bottom: 5rem;
   }
 }
 
@@ -219,7 +212,7 @@
   }
 }
 
-/* resizing the headings & footer spacing */
+/* resizing the headings' & footer spacing */
 @media screen and (max-width: 457px) {
   h2 {
     font-size: 2.2rem;
@@ -229,6 +222,13 @@
     margin-top: 3rem;
   }
 
+  .block-detailed-view:nth-child(2) {
+    padding-top: 4rem;
+  }
+
+  .container-detailed-view .block-detailed-view h2 {
+    margin-top: 1rem;
+  }
 }
 
 /* resizing the headings */
