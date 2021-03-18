@@ -48,6 +48,7 @@
 
   <section class="container-payment">
     <div class="block-payment">
+      <h2> Secure Form </h2>
       <h3 class="larger-element"> Cart </h3>
       <p> <a class="link" href="services.html"> Wax & Polish </a> <span class="price">$200</span></p>
       <p> <a class="link" href="services.html"> Wipe Down</a> <span class="price">$10</span></p>
@@ -62,7 +63,7 @@
         <input type="radio" id="car" name="type" value="car">
         <label for="car"> Sedan </label><br>
         <input type="radio" id="suv" name="type" value="suv">
-        <label for="suv"> SUV </label><br>
+        <label for="suv"> SUV / minivan </label><br>
         <input type="radio" id="truck" name="type" value="truck">
         <label for="truck"> Truck </label><br>
       </form>
@@ -107,13 +108,54 @@
     <input type="submit" class="button-form" value="Submit">
   </div>
 
-  <footer>
-      <section class = "section-divider-footer">
-        <div class="container-footer">
-          <a class="link" href="citations.html"> Citations </a>
-          <a class="link" href="index.html"> Style Guide </a>
-          <a class="link" href="https://github.com/Ajxy2/Iat-339-Team-11"> Github </a>
+  <footer class="section-divider-footer">
+    <div class="container-footer">
+      <div class="block-footer">
+        <div class="topnav">
+          <div class="topnav-left">
+            <a href="home.html">
+              <span class="auto-detailing-font-top"> AUTO
+                <span class="mobile-font-top"> MOBILE </span>
+                <span> DETAILING </span>
+              </span>
+            </a>
+          </div>
         </div>
-      </section>
+        <p> Family owned and operated since 2005, we strive to be the best Detailing service in all of Vancouver.
+        </p>
+      </div>
+
+      <div class="block-footer">
+        <h3> Navigation </h3>
+        <ul>
+          <li><a class="link" href="home.html">Home</a> </li>
+          <li><a class="link" href="services.html">Services</a> </li>
+          <li><a class="link" href="contact.html">Contact Us</a> </li>
+          <li><a class="link" href="checkout.html">Checkout</a> </li>
+        </ul>
+      </div>
+
+      <div class="block-footer">
+        <h3> Resources </h3>
+        <ul>
+          <li><a class="link" href="index.html"> Style Guide </a> </li>
+          <li><a class="link" href="citations.html"> Citations </a> </li>
+          <li><a class="link" href="https://github.com/Ajxy2/Iat-339-Team-11"> Github </a> </li>
+        </ul>
+      </div>
+
+      <div class="block-footer">
+        <h3> Newsletter Sign Up</h3>
+        <form method="post" action="#">
+          <label class="input-text-label" for="name"> Name </label>
+          <input class="input-text-contact-us" type="text" id="name" name="name">
+          <label class="input-text-label" for="email"> Email </label>
+          <input class="input-text-contact-us" type="text" id="email" name="email">
+          <div class="container-payment">
+            <input class="button-form" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
   </footer>
 </body>

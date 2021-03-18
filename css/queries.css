@@ -14,6 +14,7 @@
 }
 
 /* making the header text move to the center when the screen is small enough */
+/* also making the contact page elements space properly at smaller sizes */
 @media screen and (max-width: 1050px) {
   .header-text {
     color: white;
@@ -24,9 +25,21 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .block-contact-us:nth-child(2) {
+    margin-top: 1rem;
+  }
+
+  .section-divider-footer {
+    margin-top: 1rem;
+  }
+
+  /* .container-detailed-view h2{
+    margin-top: 20rem;
+  } */
 }
 
-/* making the home page text fill up the page once the screen is a certain size */
+/* making the elements  fill up the page once the screen is a certain size */
 @media screen and (max-width: 1279px) {
   .block-about-us {
     flex: 0 100%;
@@ -47,6 +60,10 @@
 
   .block-about-us ul {
     margin-bottom: 1rem;
+  }
+
+  .container-detailed-view img{
+    padding-bottom: 5rem;
   }
 }
 
@@ -106,6 +123,14 @@
   .container-contact-us {
     padding-left: 0rem;
     padding-right: 0rem;
+  }
+
+  .block-payment:nth-child(2) h3 {
+    margin-top: 1rem;
+  }
+
+  .block-payment:nth-child(3) h3 {
+    margin-top: 1rem;
   }
 }
 
@@ -187,6 +212,14 @@
   }
 }
 
+/* resizing the footer elements */
+@media screen and (max-width: 530px) {
+  .block-footer:nth-child(2) {
+    padding-left: 2rem;
+  }
+}
+
+/* resizing the headings & footer spacing */
 @media screen and (max-width: 457px) {
   h2 {
     font-size: 2.2rem;
@@ -195,14 +228,17 @@
   .header-text {
     margin-top: 3rem;
   }
+
 }
 
+/* resizing the headings */
 @media screen and (max-width: 375px) {
   h2 {
     font-size: 2rem;
   }
 }
 
+/* resizing the top logo */
 @media screen and (max-width: 388px) {
   .auto-detailing-font-top {
     font-size: 1.65rem;
@@ -217,6 +253,7 @@
   }
 }
 
+/* resizing the top logo */
 @media screen and (max-width: 366px) {
   .auto-detailing-font-top {
     font-size: 1.5rem;
@@ -231,10 +268,9 @@
   }
 }
 
+/* resizing the images for services */
 @media screen and (max-width: 900px) {
   .image-link {
     max-width: 100%;
-    /* object-fit: cover; */
-    /* vertical-align: bottom; */
   }
 }

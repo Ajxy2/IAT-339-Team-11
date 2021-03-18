@@ -153,8 +153,6 @@
         <label class="input-text-label" for="name"> Name </label>
         <input class="input-text" type="text" id="name" name="name">
       </form>
-
-
     </section>
 
     <section class="element">
@@ -176,7 +174,7 @@
         <input type="radio" id="elem1" name="type" value="elem1">
         <label for="car">element 1</label><br>
         <input type="radio" id="elem2" name="type" value="elem2">
-        <label for="SUV">element 2</label><br>
+        <label for="suv">element 2</label><br>
         <input type="radio" id="elem3" name="type" value="elem3">
         <label for="truck">element 3</label><br>
       </form>
@@ -459,11 +457,11 @@
     <h3> DETAILED SERVICE VIEW TEMPLATE </h3>
     <div class="container-detailed-view">
       <div class="block-detailed-view">
+        <h2> What is it?</h2>
         <img src="images/ext7.jpg" alt="before vs after wax and polish">
       </div>
 
       <div class="block-detailed-view">
-        <h2> What is it?</h2>
         <p> Our Wax & Polish service will make your vehicle's paint look brand new again, no matter how worn out and scratched it is. Our Detailers are highly trained and use only the best products on the market.
         </p>
         <h3> Select your vehicle type: </h3>
@@ -473,7 +471,7 @@
           <input type="radio" id="car" name="type" value="car">
           <label for="car"> Sedan </label><br>
           <input type="radio" id="suv" name="type" value="suv">
-          <label for="SUV"> SUV </label><br>
+          <label for="suv"> SUV / minivan </label><br>
           <input type="radio" id="truck" name="type" value="truck">
           <label for="truck"> Truck </label><br>
         </form>
@@ -487,6 +485,7 @@
     <h3> CHECKOUT & PAYMENT TEMPLATE </h3>
     <section class="container-payment">
       <div class="block-payment">
+        <h2> Secure Form </h2>
         <h3 class="larger-element"> Cart </h3>
         <p> <a class="link" href="services.html"> Interior Detail </a> <span class="price">$150</span></p>
         <p> <a class="link" href="services.html"> Exterior Detail </a> <span class="price">$100</span></p>
@@ -496,12 +495,14 @@
 
         <h3 class="larger-element"> Vehicle type: </h3>
         <form method="get" action="#">
-          <input type="radio" id="car-style-guide" name="type" value="car-style-guide">
-          <label for="car">coupe/sedan</label><br>
-          <input type="radio" id="SUV" name="type" value="SUV">
-          <label for="SUV">SUV</label><br>
-          <input type="radio" id="truck-style-guide" name="type" value="truck-style-guide">
-          <label for="truck">truck</label><br>
+          <input type="radio" id="coupe-checkout" name="type" value="coupe-checkout">
+          <label for="car"> Coupe </label><br>
+          <input type="radio" id="car-checkout" name="type" value="car-checkout">
+          <label for="car"> Sedan </label><br>
+          <input type="radio" id="suv-checkout" name="type" value="suv-checkout">
+          <label for="suv"> SUV / minivan </label><br>
+          <input type="radio" id="truck-checkout" name="type" value="truck-checkout">
+          <label for="truck"> Truck </label><br>
         </form>
       </div>
 
@@ -509,15 +510,15 @@
         <h3 class="larger-element"> Home Address </h3>
         <form method="post" action="#">
           <label class="input-text-label" for="fullname"> Full name </label>
-          <input class="input-text" type="text" id="fullname" name="fullname"> <br>
+          <input class="input-text" type="text" id="fullname" name="fullname">
           <label class="input-text-label" for="address"> Address </label>
-          <input class="input-text" type="text" id="address" name="address"> <br>
+          <input class="input-text" type="text" id="address" name="address">
           <label class="input-text-label" for="city"> City </label>
-          <input class="input-text" type="text" id="city" name="city"> <br>
+          <input class="input-text" type="text" id="city" name="city">
           <label class="input-text-label" for="province"> Province </label>
-          <input class="input-text" type="text" id="province" name="province"> <br>
+          <input class="input-text" type="text" id="province" name="province">
           <label class="input-text-label" for="postal"> Postal code </label>
-          <input class="input-text" type="text" id="postal" name="postal"> <br>
+          <input class="input-text" type="text" id="postal" name="postal">
         </form>
       </div>
 
@@ -525,17 +526,17 @@
         <h3 class="larger-element"> Payment info </h3>
         <form method="post" action="#">
           <label class="input-text-label" for="ccname"> Name on card </label>
-          <input class="input-text" type="text" id="ccname" name="ccname"> <br>
+          <input class="input-text" type="text" id="ccname" name="ccname">
           <label class="input-text-label" for="ccnumber"> Credit card number </label>
           <div class="stretch">
-            <input class="input-text" type="text" id="ccnumber" name="ccnumber"> <br>
+            <input class="input-text" type="text" id="ccnumber" name="ccnumber">
           </div>
           <label class="input-text-label" for="expMonth"> Expiry month </label>
-          <input class="input-text" type="text" id="expMonth" name="expMonth"> <br>
+          <input class="input-text" type="text" id="expMonth" name="expMonth">
           <label class="input-text-label" for="expYear"> Expiry year </label>
-          <input class="input-text" type="text" id="expYear" name="expYear"> <br>
+          <input class="input-text" type="text" id="expYear" name="expYear">
           <label class="input-text-label" for="cvv"> CVV </label>
-          <input class="input-text" type="text" id="cvv" name="cvv"> <br>
+          <input class="input-text" type="text" id="cvv" name="cvv">
         </form>
       </div>
     </section>
@@ -552,16 +553,18 @@
     <div class="container-contact-us">
       <div class="block-contact-us">
         <h2>Drop us a message</h2>
+        <h3> We're here to help </h3>
+        <p> We would love to address any inquires, questions, or concerns that you may have. Feel free to contact us using this form. We typically respond within two business days. </p>
         <h3> Question / comment is regarding: </h3>
         <form method="get" action="#">
           <input type="radio" id="ext-detail" name="type" value="ext-detail">
-          <label for="ext-detail">Exterior Detail</label><br>
+          <label for="ext-detail">Exterior Detail</label> <br>
           <input type="radio" id="int-detail" name="type" value="int-detail">
-          <label for="int-detail">Interior Detail</label><br>
+          <label for="int-detail">Interior Detail</label> <br>
           <input type="radio" id="comp-updates" name="type" value="comp-updates">
-          <label for="comp-updates">Company updates</label><br>
+          <label for="comp-updates">Company updates</label> <br>
           <input type="radio" id="other" name="type" value="other">
-          <label for="other">Other</label><br>
+          <label for="other">Other</label>
         </form>
       </div>
 
@@ -587,7 +590,59 @@
     </div>
   </section>
 
+  <section class = "element">
+    <h3> FOOTER TEMPLATE </h3>
+    <div class="section-divider-footer">
+      <div class="container-footer">
+        <div class="block-footer">
+          <div class="topnav">
+            <div class="topnav-left">
+              <a href="home.html">
+                <span class="auto-detailing-font-top"> AUTO
+                  <span class="mobile-font-top"> MOBILE </span>
+                  <span> DETAILING </span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <p> Family owned and operated since 2005, we strive to be the best Detailing service in all of Vancouver.
+          </p>
+        </div>
 
+        <div class="block-footer">
+          <h3> Navigation </h3>
+          <ul>
+            <li><a class="link" href="home.html">Home</a> </li>
+            <li><a class="link" href="services.html">Services</a> </li>
+            <li><a class="link" href="contact.html">Contact Us</a> </li>
+            <li><a class="link" href="checkout.html">Checkout</a> </li>
+          </ul>
+        </div>
+
+        <div class="block-footer">
+          <h3> Resources </h3>
+          <ul>
+            <li><a class="link" href="index.html"> Style Guide </a> </li>
+            <li><a class="link" href="citations.html"> Citations </a> </li>
+            <li><a class="link" href="https://github.com/Ajxy2/Iat-339-Team-11"> Github </a> </li>
+          </ul>
+        </div>
+
+        <div class="block-footer">
+          <h3> Newsletter Sign Up</h3>
+          <form method="post" action="#">
+            <label class="input-text-label" for="name-footer-style-guide"> Name </label>
+            <input class="input-text-contact-us" type="text" id="name-footer-style-guide" name="name-footer-style-guide">
+            <label class="input-text-label" for="email-footer-style-guide"> Email </label>
+            <input class="input-text-contact-us" type="text" id="email-footer-style-guide" name="email-footer-style-guide">
+            <div class="container-payment">
+              <input class="button-form" type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- END OF COMBINED ELEMENTS SECTION -->
 
   <!-- BRAND COMPONENTS SECTION-->
@@ -614,6 +669,8 @@
       <p> #909090 </p>
       <div class="rectangle3"> </div>
       <p> #555 </p>
+      <div class="rectangle6"> </div>
+      <p> #1a1a1a</p>
       <div class="rectangle4"> </div>
       <p> #000000</p>
       <div class="rectangle5"> </div>
@@ -654,6 +711,8 @@
       <img class="image" alt="trim cleanse" src="images/int4.png">
     </section>
 
+
+
   </section>
   <!-- END OF BRAND COMPONENTS SECTION -->
 
@@ -689,14 +748,55 @@
     </section>
   </section>
 
-  <footer>
-    <section class="section-divider-footer">
-      <div class="container-footer">
-        <a class="link" href="citations.html"> Citations </a>
-        <a class="link" href="index.html"> Style Guide </a>
-        <a class="link" href="https://github.com/Ajxy2/Iat-339-Team-11"> Github </a>
+  <footer class="section-divider-footer">
+    <div class="container-footer">
+      <div class="block-footer">
+        <div class="topnav">
+          <div class="topnav-left">
+            <a href="home.html">
+              <span class="auto-detailing-font-top"> AUTO
+                <span class="mobile-font-top"> MOBILE </span>
+                <span> DETAILING </span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <p> Family owned and operated since 2005, we strive to be the best Detailing service in all of Vancouver.
+        </p>
       </div>
-    </section>
+
+      <div class="block-footer">
+        <h3> Navigation </h3>
+        <ul>
+          <li><a class="link" href="home.html">Home</a> </li>
+          <li><a class="link" href="services.html">Services</a> </li>
+          <li><a class="link" href="contact.html">Contact Us</a> </li>
+          <li><a class="link" href="checkout.html">Checkout</a> </li>
+        </ul>
+      </div>
+
+      <div class="block-footer">
+        <h3> Resources </h3>
+        <ul>
+          <li><a class="link" href="index.html"> Style Guide </a> </li>
+          <li><a class="link" href="citations.html"> Citations </a> </li>
+          <li><a class="link" href="https://github.com/Ajxy2/Iat-339-Team-11"> Github </a> </li>
+        </ul>
+      </div>
+
+      <div class="block-footer">
+        <h3> Newsletter Sign Up</h3>
+        <form method="post" action="#">
+          <label class="input-text-label" for="name-footer"> Name </label>
+          <input class="input-text-contact-us" type="text" id="name-footer" name="name-footer">
+          <label class="input-text-label" for="email-footer"> Email </label>
+          <input class="input-text-contact-us" type="text" id="email-footer" name="email-footer">
+          <div class="container-payment">
+            <input class="button-form" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
   </footer>
 </body>
 
