@@ -31,6 +31,10 @@
   border-top: 3px dashed #bbb;
 }
 
+.element .container-footer {
+  margin-bottom: 6rem;
+}
+
 .element .container-detailed-view h2 {
   margin-top: 1rem;
 }
